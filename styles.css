@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #D3D3D3;
+
+
+}
+
+.element {
+    width: 710px;
+    height: 700px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 20px;
+   
+}
+
+.create {
+    width: 640px;
+    height: 70px;
+    margin: 20px auto;
+    background-color: #D3D3D3;  
+    position: relative; 
+    top: 20px;
+    font-size: 11px;
+    color: #696969;
+}
+
+.input-priority {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.input-text {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+
+.button {
+    width: 150px;
+    font-size: 14px;
+    color: white;
+    background-color: #32CD32;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 2 px #000;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+    
+}
+
+
+.form-control {
+    width: 640px;
+    height: 130px;
+    font-size: 11px;
+    margin: 20px auto;
+    background-color: #D3D3D3;  
+    position: relative; 
+    top: 20px;
+}
+
+.filter-priority {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.filter-status {
+    position: absolute;
+    top: 10px;
+    left: 277px;
+}
+
+.sort-date {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+.sort-priority {
+    position: absolute;
+    top: 50px;
+    left: 277px;
+}
+
+.search-task {
+    position: absolute;
+    top: 90px;
+    left: 15px; 
+}
+
+.lower {
+    text-indent: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    white-space: normal;
+    width: 640px;
+    height: 410px;
+    margin: 20px auto;
+    background-color: #D3D3D3;  
+    position: relative; 
+    top: 20px; 
+   
+}
+
+.unfinished-tasks{
+    list-style-type: none;
+}
+
+.priors{
+    display: flex;
+    width: 100px;
+    background-color: pink;
+    position: absolute; 
+    margin-top: 25px;
+    margin-left: 10px;
+    
+}
+
+.text{
+    display: flex;
+    list-style-type: none;
+    
+    padding: 10 px;
+    position: relative; 
+    top: 15px;
+    left: 130px;
+    width: 330px;
+    overflow-wrap: anywhere;
+    background-color: white;
+}
+
+.delete { 
+    display: flex;
+    position: relative; 
+    top: -10px;
+    left: 431px;
+    cursor: pointer; 
+}
+
+.close {
+    display: flex;
+    position: relative; 
+    top: -10px;
+    left: 420px;
+    cursor: pointer; 
+}
+
+.checkbox {
+    display: flex;
+    position: relative; 
+    top: -10px;
+    left: 460px;
+    cursor: pointer; 
+}
+
+
+
+
+
